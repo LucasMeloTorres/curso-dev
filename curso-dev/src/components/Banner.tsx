@@ -1,18 +1,16 @@
 function Banner() {
   return (
-    <div className="BG">
-      <h2>
-        Apple apresenta novo <br /> treinamento profissional para a <br />
-        crescente equipe de TI
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod corporis
-        dicta delectus voluptatem doloribus praesentium voluptate, corrupti,
-        doloremque, debitis quidem sunt eveniet amet recusandae quos ut quisquam
-        deleniti soluta facere!
-      </p>
+    <div className="ConteinerBanner">
+      <div className="ConteinerInfo">
+        <h1>
+          Aprenda a fazer manutenção <br /> em todos os aparelhos Apple
+        </h1>
+        <p>
+          Se torne um Técnico Especializado Apple e monte seu próprio negócio.
+        </p>
+        <button className="ButtonMenu">Começar agora</button>
+      </div>
     </div>
   );
 }
-
 export default Banner;

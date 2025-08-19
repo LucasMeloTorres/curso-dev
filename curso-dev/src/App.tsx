@@ -1,16 +1,12 @@
 import "./App.css";
-import Menu from "./components/Menu";
+import MenuNav from "./components/MenuNav";
 import Banner from "./components/Banner";
-import InfoBanner from "./components/InfoBanner";
 
 function App() {
   return (
     <>
-      <div>
-        <Menu />
-        <Banner />
-        <InfoBanner />
-      </div>
+      <MenuNav />
+      <Banner />
     </>
   );
 }

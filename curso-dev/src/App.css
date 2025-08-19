@@ -1,5 +1,14 @@
-#root {
-  margin: 0 auto;
+/* App.css */
+/* Global styles for the application */
+
+*,
+*:after,
+*:before {
+  margin: 0;
   padding: 0;
-  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Ubuntu", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
