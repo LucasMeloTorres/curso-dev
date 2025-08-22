@@ -1,4 +1,4 @@
-function Banner() {
+const Banner = () => {
   return (
     <div className="ConteinerBanner">
       <div className="ConteinerInfo">
@@ -12,5 +12,5 @@ function Banner() {
       </div>
     </div>
   );
-}
+};
 export default Banner;

@@ -1,4 +1,5 @@
-function menuNav() {
+const menuNav = () => {
+  // This component renders a navigation menu with links to different sections of the site.
   return (
     <>
       <div className="ConteinerMenu">
@@ -14,5 +15,5 @@ function menuNav() {
       </div>
     </>
   );
-}
+};
 export default menuNav;

@@ -1,9 +1,26 @@
+h2 {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: var(--font-titulo);
+  color: var(--cor-texto);
+  text-transform: uppercase;
+}
+
 :root {
   --cor-texto: #333333;
   --background: #e2e2e2;
 
   --font-titulo: 2.5rem;
   --font-texto: 1.2rem;
+
+  --texto-H2: 
+  text-align: center,
+  padding-top: 4rem,
+  padding-bottom: 4rem,
+  font-size: var(--font-titulo),
+  color: var(--cor-texto),
+  text-transform: uppercase;
 }
 
 .ConteinerMenu {
@@ -73,7 +90,7 @@
   h1 {
     font-size: 3.8rem;
     text-align: center;
-    line-height: 4rem;
+    line-height: 5rem;
   }
 
   p {
@@ -87,7 +104,7 @@
   background-color: rgb(255, 255, 255);
   color: var(--cor-texto);
   border: none;
-  margin-top: 1.4rem;
+  margin-top: 1.8rem;
   padding: 1rem 4rem;
   font-size: 1.2rem;
   border-radius: 50px;
@@ -103,18 +120,9 @@
 
 /* Main Component Styles */
 .main-container {
-  height: 100vh;
   background-color: var(--background);
   color: var(--cor-texto);
-
-  h2 {
-    text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    font-size: var(--font-titulo);
-    color: var(--cor-texto);
-    text-transform: uppercase;
-  }
+  padding-bottom: 4rem;
 }
 
 .img-content {
@@ -150,4 +158,41 @@
 .img-main:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
+}
+
+/* About Me Component Styles */
+.about-me-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 4rem
+  ;
+}
+
+.about-image {
+  width: 35vw;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.1);
+}
+
+.about-image:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-me-text {
+  padding: 2rem;
+  width: 35vw;
+  height: auto;
+
+  p{
+  text-align: justify;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  }
+
 }

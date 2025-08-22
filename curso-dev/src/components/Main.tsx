@@ -1,4 +1,4 @@
-function Main() {
+const Main = () => {
   return (
     <div className="main-container">
       <h2>O que você vai aprender</h2>
@@ -83,6 +83,6 @@ function Main() {
       </div>
     </div>
   );
-}
+};
 
 export default Main;

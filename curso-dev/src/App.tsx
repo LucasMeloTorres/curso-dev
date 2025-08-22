@@ -1,7 +1,8 @@
 import "./App.css";
 import MenuNav from "./components/MenuNav";
 import Banner from "./components/Banner";
-import Main from "./components/main";
+import Main from "./components/Main";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <MenuNav />
       <Banner />
       <Main />
+      <AboutMe />
     </>
   );
 }
